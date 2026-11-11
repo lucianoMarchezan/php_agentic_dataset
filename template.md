@@ -1,8 +1,16 @@
-# Top 100 PHP projects on Github
+# Top 100 PHP repositories using coding agents
 
-This is an automated list of the PHP projects here on Github with the most stars
+This list ranks public GitHub repositories by stars. Each repository uses PHP as its primary language and has a default-branch commit dated October 22, 2026 or later (UTC).
+
+Agent evidence is a file named `AGENTS.md`, `SKILLS.md`, `SKILL.md`, or `CLAUDE.md` anywhere on the default branch (case-insensitive), or a recognized coding agent recorded as an author, committer, or co-author in its latest 100 commits. The evidence column links to the file or commit.
 
 {{data}}
+
+### Refreshing the ranking
+
+The **Update README** workflow runs daily at 13:37 UTC and can also run on demand from the Actions tab. It uses the built-in GitHub token by default. Set the optional `RANKING_GITHUB_TOKEN` Actions secret to a token with public repository read access if the run exceeds the built-in token's API quota.
+
+To regenerate locally with Ruby, set `GITHUB_TOKEN` in your environment and run `ruby parse.rb`.
 
 ### Inspiration
 
